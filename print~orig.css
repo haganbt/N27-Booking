@@ -1,0 +1,30 @@
+/****************************************************
+*			PRINT RELATED CLASSES
+****************************************************/
+
+.ShowBorders {
+    border: solid 1px white ;
+    border-right: solid 0px white ;
+}
+.ShowBorders td {
+    border-bottom: solid 1px white ;
+    border-right: solid 1px white ;
+}
+
+@media print {
+    body, td, tr, a, .FontSoftSmall {
+        font-size: 9px ;
+        font-weight: bold ;
+    }
+    .ShowBorders {
+        border: solid 1px gray ;
+        border-right: solid 0px gray ;
+    }
+    .ShowBorders td {
+        border-bottom: solid 1px gray ;
+        border-right: solid 1px gray ;
+    }
+    .DoNotPrint {
+        display: none ;
+    }
+}

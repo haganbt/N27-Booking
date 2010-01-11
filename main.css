@@ -1,0 +1,262 @@
+
+/****************************************************
+*			BASE ELEMENTS
+****************************************************/
+
+body {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+  margin:0;
+  padding: 300px 0px 0px 0px;
+}
+
+a:link { color : #B0232A; }
+a:visited { color :#B0232A; }
+a:active { color : #000000; }
+a:hover { color : #000000; }
+
+p {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+td {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+th {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+}
+h1 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 19px;
+	color : #0e3460;
+	text-align: center;
+}
+h2 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 17px;
+	color : #0e3460;
+	text-align: center;
+}
+h3 {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 15px;
+	color : #0e3460;
+}
+h4 {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 12px;
+	color : #0e3460;
+}
+em {
+	font-style : italic;
+}
+strong {
+	font-weight : bold;
+}
+
+abbr, acronym {
+	text-decoration : underline;
+}
+blockquote {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	margin-left : 15px;
+	margin-right : 15px;
+	text-align : left;
+	line-height : 20px;
+}
+ol, ul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	line-height : 20px;
+}
+input, textarea, select {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+code {
+	font-family : "Courier New", Courier, monospace;
+	font-size : 12px;
+	line-height : 20px;
+}
+img {
+	border: none;
+}
+form {
+	border: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/****************************************************
+*			BGCOLOR CLASSES
+****************************************************/
+
+.BgcolorBody {
+	background : #ffffff;
+}
+/* Used for dark nav bar headings */
+.BgcolorHard {
+	background : #B0232A;
+}
+/* Used as the primary table background color */
+.BgcolorNormal {
+	background : #EBEBEB;
+}
+/* Used for Mon-Fri Headings */
+.BgcolorBright {
+	background : #E0E0E1;
+}
+/* Used to show selected navigation */
+.BgcolorDull {
+	background : #E0E0E1;
+}
+/* Used for navigation headings */
+.BgcolorDull2 {
+	background :#D2D2D2;
+}
+
+/****************************************************
+*			FONT CLASSES
+****************************************************/
+
+.FontHard {
+	color : #ffffff;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+.FontHardSmall {
+	color : #ffffff;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+.FontSoft {
+	color : #000000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+.FontSoftSmall {
+	color : #000000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+.Disabled {
+	color :#808080;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+}
+
+/****************************************************
+*			OTHER CLASSES
+****************************************************/
+
+.ButtonStyle {
+	cursor: hand;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : normal;
+	color : #ffffff;
+	background :  #B0232A;
+}
+
+.ButtonStyleSmall {
+	cursor: hand;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : normal;
+	color : #ffffff;
+	background : #B0232A;
+}
+
+.Warning {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	color : #ff0000;
+	vertical-align : middle;
+	font-weight : bold;
+}
+
+.SectionHeaderStyle {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+	color : #ffffff;
+	background: #B0232A;
+	/*background: url(images/table_bg_gray_dk.gif);*/
+	text-align : left;
+	padding-right : 5px;
+	padding-left : 5px;
+}
+
+.SiteVersion {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	color : silver;
+	text-align : right;
+	padding-right : 10px;
+	padding-left : 10px;
+}
+
+/****************************************************
+
+*			CUSTOM ELEMENT STYLES
+
+****************************************************/
+
+.scrollingDivBox {
+
+  width:200px;
+
+  height:200px;
+
+  overflow:auto;
+
+  border:solid 1px darkgray;
+
+  white-space:nowrap;
+
+}
+
+
+
+.form_item {
+ border:solid 1px darkgray;
+}
+
+#HeaderNavContainer {
+  padding: 10px 10px 0px 10px;
+}
+
+#HeaderNavAndBannerContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+  height: 300px;
+}
+
+/* apply following block to make header always remain present */
+@media screen {
+  #HeaderNavAndBannerContainer {
+    position: fixed;
+  }
+}
+/* end static header */
+
+* html body {
+  overflow: hidden;
+}
+
+#MainContentContainer {
+  height: 100%;
+  overflow: auto;
+}
